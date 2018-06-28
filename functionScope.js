@@ -44,3 +44,8 @@ function outfun () {
     return infun;
 }
 outfun()();
+
+this指调用function
+作用域 function的作用域 
+new 一个对象 
+return
