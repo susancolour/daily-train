@@ -11,6 +11,20 @@ function outfun () {
 var out = new outfun();
 console.log(out.num);
 
+function outfun () {
+    this.num = 10;
+    var a = 99;
+    function infun() {
+        var num = 100;
+        console.log(this.num);
+        console.log(num);
+        console.log(a);
+        console.log(this);
+    }
+    return infun;
+}
+
+outfun()();
 
 function outfun () {
     this.num = 10;
