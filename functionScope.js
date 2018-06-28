@@ -50,3 +50,4 @@ this指调用function
 new 一个对象 
 return
 一个function的作用域-闭包
+变量 属性 是两个概念
